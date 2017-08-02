@@ -1,0 +1,143 @@
+body {
+	box-sizing: border-box;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+/* .flexContainerCol {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+}
+ */
+ 
+ .flexContainerCol {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+ }
+
+.header .flexContainer  {
+	justify-content: space-between;
+}
+
+#logo {
+	margin-left: 10px;
+	height: 50px;
+}
+
+.header {
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	position: static;
+}
+
+ .header a {
+	color: seashell;
+	margin-right: 40px;
+}
+
+#mission {
+	width: 1200px;
+	height: 700px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	background-size: 100% 100%;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mission div {
+	background-color: black;
+}
+
+#teaMonth {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#teaMonth img {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+}
+
+.teaImagesContainer
+{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.singleImgContainer{
+}
+
+#teaMonth h4 {
+	margin: 0px;
+}
+
+#locations {
+	width: 1200px;
+	height: 500px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	justify-content: space-around;
+}
+
+#firstLoc {
+	margin-left: 110px;
+}
+
+#lastLoc {
+	margin-right: 110px;
+}
+
+.singleLocContainer{
+	width: 300px;
+	background-color: black;
+}
+
+#locations h4 {
+	font-weight: normal;
+}
+
+#contact {
+	height: 200px;
+	overflow: hidden;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.contactInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#contactName {
+	margin-top: 20px;
+	font-size: 28px;
+}
+
+#contactPhone {
+	margin-bottom: 20px;
+}
+
+#footer {
+	margin-left: 20px;
+	text-align: left;
+}
