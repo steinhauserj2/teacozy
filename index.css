@@ -13,15 +13,6 @@ body {
   align-items: center;
   flex-shrink: 1;
 }
-
-/* .flexContainerCol {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  vertical-align: middle;
-}
- */
  
  .flexContainerCol {
 	 display: flex;
@@ -79,9 +70,6 @@ body {
 {
 	flex-wrap: wrap;
 	justify-content: center;
-}
-
-.singleImgContainer{
 }
 
 #teaMonth h4 {
